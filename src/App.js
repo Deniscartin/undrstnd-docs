@@ -10,7 +10,7 @@ import ApiUsageSection from './ApiUsageSection';
 
 const App = () => {
   return (
-    <div className="flex dark:bg-gray-900 dark:text-gray-200">
+    <div className="flex ">
       <Sidebar />
       <div className="flex-1 p-6">
         {/* <SearchBar /> */}
