@@ -27,50 +27,52 @@ const Sidebar = () => {
           isOpen ? 'translate-x-0' : 'translate-x-full'
         } transition-transform duration-300 ease-in-out z-40 md:static md:translate-x-0 md:w-64 p-6`}
       >
-        <nav>
-          <ul className="space-y-4">
-            <li>
-              <Link
-                to="overview"
-                smooth={true}
-                duration={500}
-                className="block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg"
-              >
-                Overview
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="endpoints"
-                smooth={true}
-                duration={500}
-                className="block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg"
-              >
-                Endpoints
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="pricing"
-                smooth={true}
-                duration={500}
-                className="block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg"
-              >
-                Pricing
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="how-to-use"
-                smooth={true}
-                duration={500}
-                className="block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg"
-              >
-                How to Use the API
-              </Link>
-            </li>
-          </ul>
-        </nav>
+      <div className="md:sticky md:top-0">
+          <nav>
+            <ul className="space-y-4">
+              <li>
+                <Link
+                  to="overview"
+                  smooth={true}
+                  duration={500}
+                  className="block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg"
+                >
+                  Overview
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="endpoints"
+                  smooth={true}
+                  duration={500}
+                  className="block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg"
+                >
+                  Endpoints
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="pricing"
+                  smooth={true}
+                  duration={500}
+                  className="block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg"
+                >
+                  Pricing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="how-to-use"
+                  smooth={true}
+                  duration={500}
+                  className="block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg"
+                >
+                  How to Use the API
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </aside>
     </div>
   );
