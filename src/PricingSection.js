@@ -237,6 +237,7 @@ const Pricing = () => {
 
       <div id="pricing" className="my-8">
         <h2 className="text-3xl font-bold mb-4">Pricing</h2>
+     <p className="text-l  mb-4">The price is for 1mln tokens</p>
         <table className="min-w-full bg-white border border-gray-200 rounded-lg overflow-hidden">
           <thead>
             <tr className="bg-gray-200 text-gray-700 font-bold">
